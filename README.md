@@ -16,6 +16,6 @@ Run <code>php artisan db:seed --class=TestDataSeeder</code> to add 50 companies 
 <br>
 <h2>Testing</h2> 
 <ul>
-<li>Run </code>php artisan serve --env=dusk --port=8123</code> from root to start the simple php servlet on port 8123 (note, this port is defined in the .env.dusk and is different from the standard .env setup).</li>
+<li>Run <code>php artisan serve --env=dusk --port=8123</code> from root to start the simple php servlet on port 8123 (note, this port is defined in the .env.dusk and is different from the standard .env setup).</li>
 <li>Run </code>php artisan dusk</code> to cycle through the browser tests</li>
 </ul>
