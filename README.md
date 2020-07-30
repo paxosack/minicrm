@@ -20,4 +20,4 @@ Run <code>php artisan db:seed --class=TestDataSeeder</code> to add 50 companies 
 <li>Run </code>php artisan dusk</code> to cycle through the browser tests</li>
 </ul>
 <br>
-The Testing environment uses a sqlite database file located at <code>/tmp/mini_crm_testing.sqlite</code>. This will need to be accessable by the current user or can be changed to another file in the <code>.env.dusk</code> file.
+The Testing environment uses a sqlite database file located at <code>/tmp/mini_crm_testing.sqlite</code>. This will need to be accessible by the current user or can be changed to another file in the <code>.env.dusk</code> file.
