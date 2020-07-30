@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * Class Employee
@@ -73,7 +73,7 @@ class Employee extends Model
     /**
      * Employees belong to a Company (required relationship)
      * 
-     * @return BelongsToMany
+     * @return BelongsTo
      */
     public function company()
     {
